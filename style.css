@@ -1,0 +1,54 @@
+ h4 {
+    color:white;
+    background-color: red;
+    padding: 30px;;
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+ }
+ .tabs {
+	background: var(--dark-color);
+	padding-top: 1rem;
+	border-bottom: 3px solid #3d3d3d;
+	border-right: none;
+}
+
+.tabs .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tabs .container > div {
+	padding: 1.5rem 0;
+}
+
+ .container {
+	max-width: 10%;
+	margin: auto;
+	overflow: hidden;
+	padding: 1rem 3rem;
+}
+
+p {
+    font-family: sans-serif;
+    grid-gap: 1rem;
+    font-weight: 500;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    text-size-adjust: 12px;
+    
+}
+.link {
+    font-family: sans-serif;
+    color: black;
+    grid-gap: 1rem;
+    font-weight: 700;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    text-size-adjust: 8px;
+}
